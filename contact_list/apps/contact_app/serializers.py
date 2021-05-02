@@ -12,3 +12,10 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Group
         fields = ['url', 'name']
+
+
+class TestSerializer(serializers.HyperlinkedModelSerializer):
+    # class Meta:
+    #     model = TestList
+    #     fields = ['name']
+    pass
